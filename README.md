@@ -4,7 +4,7 @@ DAW Assessable Exercise 2
 Exercise 1
 ----------
 
-1. Download the lab keys ahd adjust their permissions: `chmod 600 labsuser.pem`
+1. Download the lab keys and adjust their permissions: `chmod 600 labsuser.pem`
 2. Open the lab and create a new security group allowing inbound traffic on ports 22 and 80.
 3. Create an Ubuntu EC2 instance, with the vockey keypair, using the security group we just created.
 4. Create an elastic IP and assign it to the instance.
